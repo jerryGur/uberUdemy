@@ -140,7 +140,7 @@ header {
 	text-transform: uppercase;
 }
 
-.reasons .reasosns_header {
+.reasosns_header {
 	width: 115px;
 	background-color: black;
 	margin: 20px auto 32px auto;
@@ -151,7 +151,7 @@ header {
 	line-height: 27px;
 }
 
-.reasons .reasons_subheader {
+.reasons_subheader {
 	color: #222222;
 	font-weight: 700;
 	font-size: 38px;
