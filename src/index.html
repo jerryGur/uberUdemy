@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Uber</title>
+	<link rel="shortcut icon" href="icons/favicon.ico" type="image/png">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -19,28 +20,34 @@
 			<div class="container">
 				<ul class="menu">
 					<li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
+					<li class="menu_item"><a href="#require" class="menu_link">Со своим автомобилем</a></li>
+					<li class="menu_item"><a href="#require" class="menu_link">На автомобиле компании</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
 				</ul>
 			</div>
+			<div class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 		</nav>
 		<div class="subheader">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 offset-md-1">
+					<div class="col-6 col-md-4 offset-md-1">
 						<a href="#" class="subheader_logo"><img src="img/Uber.png" alt="logo"></a>
 						<div class="subheader_official">Официальный партнер Uber в Москве</div>
 					</div>
 
-					<div class="col-md-2 offset-md-2">
+					<div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset--xl-2">
 						<div class="subheader_call">Звоните нам ежедневно</div>
 						<a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
 					</div>
 
-					<div class="col-md-2">
+					<div class="col-6 col-md-3">
+						<a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
 						<button class="subheader_btn">заказать звонок</button>
 					</div>
 				</div>
@@ -51,7 +58,7 @@
 	<section class="promo">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 offset-md-1">
+				<div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
 					<h1 class="promo_header">КОМПАНИЯ UBER PARTNERS!</h1>
 					<h2 class="promo_subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
 					<div class="promo_descr">Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее
@@ -165,7 +172,7 @@
 				<div class="col-md-6">
 					<div class="reasons_block">
 						<div class="reasons_round">
-							<img src="icons/car.png" alt="">
+							<img class="" src="icons/car.png" alt="">
 						</div>
 						<div class="reasons_descr">
 							<div class="reasons_subtitle">Без шашечек и наклеек</div>
@@ -185,37 +192,37 @@
 			<div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
 
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_1">
 						<div class="mobile_item_subtitle">оформление заказа одним касанием</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_2">
 						<div class="mobile_item_subtitle">надежная подача</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_3">
 						<div class="mobile_item_subtitle">прозрачные цены</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_4">
 						<div class="mobile_item_subtitle">безналичная оплата</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_5">
 						<div class="mobile_item_subtitle">обратная связь</div>
 						<div class="mobile_item_plus"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="mobile_item mobile_item_6">
 						<div class="mobile_item_subtitle">разделить стоимость поездки</div>
 						<div class="mobile_item_plus"></div>
@@ -237,7 +244,7 @@
 			Лучше, быстрее и дешевле, чем такси</div>
 	</section>
 
-	<section class="require">
+	<section class="require" id="require">
 		<div class="container">
 			<div class="label">возможности</div>
 			<div class="title">условия и требования</div>
@@ -248,6 +255,7 @@
 						<ul class="require_list">
 							<li>Подключаем к системе UBER  под 10%</li>
 							<li>Ни каких взносов 0%!</li>
+							<li>Можем подключать удаленно без приезда в офис</li>
 							<li>ИП не требуется</li>
 							<li>Заказы распределяются без учета рейтинга ближайшим водителям</li>
 							<li>Работа только по безналичному расчету</li>
@@ -330,14 +338,14 @@
 							 <a href="#">для водителей</a>
 						</div>
 						<div class="footer_links_sub">
-							 <a href="#">центр поддержки</a>
-							 <a href="#">вакансии</a>
-							 <a href="#">разработчики</a>
-							 <a href="#">блог</a>
-							 <a href="#">о нас</a>
+							<a href="#">центр поддержки</a>
+							<a href="#">вакансии</a>
+							<a href="#">разработчики</a>
+							<a href="#">блог</a>
+							<a href="#">о нас</a>
 						</div>
 						<a href="#" class="footer_links_lang">Русский</a>
-				  </div>
+				  	</div>
 			 </div>
 			 <div>
 				  <div class="footer_mobile">
@@ -354,6 +362,8 @@
 			 </div>
 		</div>
   </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
 
